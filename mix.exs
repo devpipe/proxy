@@ -1,7 +1,7 @@
 defmodule Proxy.MixProject do
   use Mix.Project
 
-  @version "0.0.1"
+  @version "0.0.2"
   @description "Extends Plug to proxy requests"
   @repo "https://github.com/devpipe/proxy"
 
@@ -15,7 +15,7 @@ defmodule Proxy.MixProject do
       deps: deps(),
       package: package(),
       docs: [
-        main: "Phial",
+        main: "Proxy",
         source_ref: "v#{@version}",
         source_url: @repo,
         extras: ["README.md"]
